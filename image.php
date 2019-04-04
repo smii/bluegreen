@@ -1,7 +1,7 @@
 <?php
 // Create a 55x30 image
 $im = imagecreatetruecolor(200, 200);
-$white = imagecolorallocate($im, 255, 255, 255);
+$white = imagecolorallocate($im, 000, 000, 255);
 // ine reserved to trigger the webhook in the lab. 
 $deployment = getenv("COLOR");
 
